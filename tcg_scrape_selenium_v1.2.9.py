@@ -2,6 +2,7 @@
 # 1.2.6 - This version attempts to sort listings by best selling
 # 1.2.7 - Added functionality to wait for certain problematic elements to be loaded
 # 1.2.8 - According to my most recent test, 1.2.8 is not broken and is working as intended.
+# 1.2.9 - Script now ignores listings that contain pictures of foreign cards with the same name, as this screws up the price differentials.
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
